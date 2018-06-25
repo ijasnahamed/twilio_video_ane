@@ -27,7 +27,7 @@ package ijasnahamed.twilio.video {
                 return;
             }
 
-            context = ExtensionContext.createExtensionContext("in.ijasnahamed.twilio.video", "");
+            context = ExtensionContext.createExtensionContext("ijasnahamed.twilio.video", "");
             if(context == null) {
                 throw new Error("No implementation of the twilio video extension found for this platform");
             }
