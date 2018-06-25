@@ -1,0 +1,11 @@
+androidLib/*.iml
+androidLib/.gradle
+androidLib/local.properties
+androidLib/.idea/workspace.xml
+androidLib/.idea/libraries
+androidLib/.DS_Store
+androidLib/build
+androidLib/captures
+androidLib/.externalNativeBuild
+*.DS_Store
+androidLib/.idea/*

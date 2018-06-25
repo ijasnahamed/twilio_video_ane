@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<extension xmlns="http://ns.adobe.com/air/extension/16.0">
+  <id>ijasnahamed.twilio.video</id>
+  <versionNumber>1.0</versionNumber>
+
+  <platforms> 
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>Android.jar</nativeLibrary>
+        <initializer>ijasnahamed.twilio.video.VideoExtension</initializer> 
+      </applicationDeployment> 
+    </platform>
+  </platforms>
+</extension>
