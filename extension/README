@@ -1,1 +1,0 @@
-cp ../wrapper/TwilioVideo.swc ./ && cp ../wrapper/library.swf android/ && cp ../androidLib/build/classes/artifacts/androidLib_jar/androidLib.jar android/Android.jar && adt -package -target ane TwilioVideo.ane extension.xml -swc TwilioVideo.swc -platform Android-ARM -C android . &&

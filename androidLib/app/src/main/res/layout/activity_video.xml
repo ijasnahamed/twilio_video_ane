@@ -8,18 +8,18 @@
     tools:context="ijasnahamed.twilio.video.views.VideoActivity">
 
     <com.twilio.video.VideoView
+            android:id="@+id/LocalView"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+    <com.twilio.video.VideoView
         android:id="@+id/RemoteView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"/>
-
-    <com.twilio.video.VideoView
-        android:id="@+id/LocalView"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:layout_margin="16dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -32,6 +32,7 @@
         android:background="#f45342"
         android:textColor="#fff"
         android:paddingLeft="5dp"
-        android:paddingRight="5dp"/>
+        android:paddingRight="5dp"
+        android:onClick="clickHandler"/>
 
 </RelativeLayout>
